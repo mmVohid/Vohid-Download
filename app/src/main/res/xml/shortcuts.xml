@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_quick"
+        android:shortcutId="quick_download"
+        android:shortcutLongLabel="@string/quick_label_long"
+        android:shortcutShortLabel="@string/quick_label">
+        <intent
+            android:action="uz.vohid.download.QUICK_CLIPBOARD"
+            android:targetClass="uz.vohid.download.QuickDownloadActivity"
+            android:targetPackage="uz.vohid.download" />
+    </shortcut>
+</shortcuts>

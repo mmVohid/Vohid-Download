@@ -107,4 +107,10 @@
     <string name="err_network">Could not connect to the internet. Check your connection</string>
     <string name="err_interrupted">The download was interrupted</string>
     <string name="err_no_output">The downloaded file was not found</string>
+
+    <string name="quick_label">Quick download</string>
+    <string name="quick_label_long">Download link from clipboard</string>
+    <string name="quick_share_label">Vohid: quick download</string>
+    <string name="quick_started">Download started</string>
+    <string name="quick_no_link">No link found. Copy a link first</string>
 </resources>

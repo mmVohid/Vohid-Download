@@ -7,6 +7,7 @@ Internetdagi videolarni Android telefoningizga yuklab beruvchi ilova. Ichida **y
 - Havola orqali video yuklash (havolani qoʻyish yoki boshqa ilovadan **Ulashish** orqali yuborish)
 - Playlistlar: kerakli videolarni tanlab, navbat bilan yuklash
 - Format va sifat tanlash: **MP4 / MKV** (144p dan 4K gacha, taxminiy hajm koʻrsatiladi), **MP3 / M4A** (audio)
+- **Tezkor yuklash**: ulashish menyusidagi «Vohid: tezkor yuklash» yoki ikonkani uzoq bosganda «Tezkor yuklash» (buferdagi havola) ilovani ochmasdan, orqa fonda standart format/sifat bilan yuklaydi
 - Yuklash navbati, bir vaqtda 1–3 ta yuklash, bekor qilish va qayta urinish
 - Foreground servis va bildirishnoma: ilova yopilganda ham yuklash davom etadi
 - Fayllar `Movies/VohidDownload` va `Music/VohidDownload` papkalariga tushadi (galereya va musiqa ilovalarida koʻrinadi, ruxsat talab qilinmaydi)

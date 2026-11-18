@@ -114,4 +114,10 @@
     <string name="err_network">Internetga ulanib boʻlmadi. Ulanishni tekshiring</string>
     <string name="err_interrupted">Yuklash uzilib qoldi</string>
     <string name="err_no_output">Yuklangan fayl topilmadi</string>
+
+    <string name="quick_label">Tezkor yuklash</string>
+    <string name="quick_label_long">Buferdagi havolani yuklash</string>
+    <string name="quick_share_label">Vohid: tezkor yuklash</string>
+    <string name="quick_started">Yuklash boshlandi</string>
+    <string name="quick_no_link">Havola topilmadi. Avval havolani nusxalang</string>
 </resources>

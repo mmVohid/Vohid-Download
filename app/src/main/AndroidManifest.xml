@@ -35,6 +35,26 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="text/plain" />
             </intent-filter>
+            <!-- Ikonkani uzoq bosganda chiqadigan «Tezkor yuklash» -->
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+
+        <!-- Ko'rinmas oyna: ulashilgan (yoki buferdagi) havolani darhol orqa fonda yuklaydi -->
+        <activity
+            android:name=".QuickDownloadActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:label="@string/quick_share_label"
+            android:noHistory="true"
+            android:taskAffinity=""
+            android:theme="@style/Theme.VohidDownload.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
         </activity>
 
         <service

@@ -16,6 +16,7 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import uz.vohid.download.AppGraph
 import uz.vohid.download.R
+import uz.vohid.download.data.AppSettings
 import uz.vohid.download.data.DownloadItem
 import uz.vohid.download.data.DownloadSpec
 import uz.vohid.download.data.Kind
@@ -79,6 +80,23 @@ object Downloader {
         persist()
         DownloadService.start(app)
         pump()
+    }
+
+    /** Tezkor yuklash: ma'lumot olmasdan, sozlamalardagi standart format/sifat bilan. */
+    fun enqueueQuick(url: String, s: AppSettings) {
+        enqueue(
+            listOf(
+                DownloadSpec(
+                    url = url,
+                    title = url,
+                    uploader = null,
+                    thumbnail = null,
+                    durationSec = null,
+                    kind = s.kind,
+                    height = if (s.kind.isAudio) 0 else s.height,
+                ),
+            ),
+        )
     }
 
     fun cancel(id: String) {
@@ -250,6 +268,7 @@ object Downloader {
             val published = Publisher.publish(app, file)
             update(id) {
                 it.copy(
+                    title = if (it.title == it.url) published.name.substringBeforeLast('.') else it.title,
                     status = Status.COMPLETED,
                     progress = 1f,
                     speed = null,
