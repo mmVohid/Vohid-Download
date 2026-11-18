@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Asosiy til: o'zbek (lotin). Apostrof o'rnida to'g'ri imlo belgisi ʻ (U+02BB) ishlatilgan. -->
+<resources>
+    <string name="app_name">Vohid Download</string>
+
+    <!-- Navigatsiya -->
+    <string name="nav_home">Bosh sahifa</string>
+    <string name="nav_downloads">Yuklamalar</string>
+    <string name="nav_settings">Sozlamalar</string>
+
+    <!-- Bosh sahifa -->
+    <string name="home_subtitle">Havolani joylang va xohlagan sifatda yuklab oling</string>
+    <string name="url_label">Video havolasi</string>
+    <string name="cd_paste">Buferdan qoʻyish</string>
+    <string name="cd_clear">Tozalash</string>
+    <string name="btn_analyze">Tahlil qilish</string>
+    <string name="loading_info">Maʼlumot olinmoqda…</string>
+    <string name="engine_starting">Yuklovchi tayyorlanmoqda…</string>
+    <string name="engine_failed">Yuklovchini ishga tushirib boʻlmadi</string>
+    <string name="btn_retry">Qayta urinish</string>
+    <string name="how_title">Qanday ishlaydi</string>
+    <string name="how_1">Video havolasini nusxalang yoki boshqa ilovadan «Ulashish» orqali yuboring</string>
+    <string name="how_2">Format va sifatni tanlang</string>
+    <string name="how_3">«Yuklab olish» tugmasini bosing — fayl galereyaga tushadi</string>
+    <string name="how_sites">Minglab saytlar qoʻllab-quvvatlanadi: YouTube, Instagram, TikTok, Facebook, Vimeo va boshqalar.</string>
+    <string name="playlist_count">%1$d ta video</string>
+    <string name="only_this_video">Faqat shu videoni olish</string>
+    <string name="section_format">Format</string>
+    <string name="kind_video">Video</string>
+    <string name="kind_audio">Audio</string>
+    <string name="section_quality">Sifat</string>
+    <string name="quality_best">Eng yaxshi</string>
+    <string name="select_all">Hammasini tanlash</string>
+    <string name="selected_count">%1$d / %2$d tanlandi</string>
+    <string name="btn_download">Yuklab olish</string>
+    <string name="btn_download_n">Yuklab olish (%1$d)</string>
+    <string name="queued_snack">Navbatga qoʻshildi: %1$d ta</string>
+    <string name="snack_view">Koʻrish</string>
+
+    <!-- Yuklamalar -->
+    <string name="downloads_title">Yuklamalar</string>
+    <string name="section_active">Faol</string>
+    <string name="section_finished">Tugagan</string>
+    <string name="downloads_empty_title">Hali yuklama yoʻq</string>
+    <string name="downloads_empty_body">Yuklab olingan fayllar shu yerda koʻrinadi</string>
+    <string name="status_queued">Navbatda</string>
+    <string name="status_saving">Saqlanmoqda…</string>
+    <string name="status_canceled">Bekor qilindi</string>
+    <string name="status_eta">%1$s qoldi</string>
+    <string name="menu_open">Ochish</string>
+    <string name="menu_share">Ulashish</string>
+    <string name="menu_copy_link">Havolani nusxalash</string>
+    <string name="menu_remove">Roʻyxatdan olib tashlash</string>
+    <string name="menu_delete_file">Faylni ham oʻchirish</string>
+    <string name="cd_cancel">Bekor qilish</string>
+    <string name="cd_retry">Qayta yuklash</string>
+    <string name="cd_more">Yana</string>
+    <string name="clear_finished">Tugaganlarni tozalash</string>
+    <string name="cancel_all">Hammasini toʻxtatish</string>
+    <string name="link_copied">Havola nusxalandi</string>
+    <string name="file_missing">Fayl topilmadi (u oʻchirilgan boʻlishi mumkin)</string>
+    <string name="no_app">Ochish uchun mos ilova topilmadi</string>
+
+    <!-- Sozlamalar -->
+    <string name="settings_title">Sozlamalar</string>
+    <string name="set_appearance">Koʻrinish</string>
+    <string name="set_theme">Mavzu</string>
+    <string name="theme_system">Tizim boʻyicha</string>
+    <string name="theme_light">Yorugʻ</string>
+    <string name="theme_dark">Qorongʻi</string>
+    <string name="set_dynamic">Dinamik ranglar</string>
+    <string name="set_dynamic_sub">Ranglar ekran fonidan olinadi</string>
+    <string name="set_downloads">Yuklash</string>
+    <string name="set_default_format">Standart format</string>
+    <string name="set_default_quality">Standart sifat</string>
+    <string name="set_parallel">Bir vaqtda yuklashlar</string>
+    <string name="set_metadata">Metamaʼlumot qoʻshish</string>
+    <string name="set_metadata_sub">Sarlavha, muallif va sana faylga yoziladi</string>
+    <string name="set_thumb">Muqova rasmini qoʻshish</string>
+    <string name="set_thumb_sub">Audio fayllarga muqova joylanadi</string>
+    <string name="set_engine">Yuklovchi (yt-dlp)</string>
+    <string name="set_update">Hozir yangilash</string>
+    <string name="set_version">Versiya: %1$s</string>
+    <string name="set_autoupdate">Avtomatik yangilash</string>
+    <string name="set_autoupdate_sub">Saytlar oʻzgarganda yuklovchi oʻzi yangilanadi</string>
+    <string name="update_done">Yangilandi: %1$s</string>
+    <string name="update_latest">Eng soʻnggi versiya oʻrnatilgan</string>
+    <string name="update_failed">Yangilab boʻlmadi: %1$s</string>
+    <string name="set_about">Ilova haqida</string>
+    <string name="about_version">Versiya %1$s</string>
+    <string name="about_notice">Faqat shaxsiy foydalanish uchun. Mualliflik huquqi bilan himoyalangan materiallarni yuklashdan oldin ruxsat borligiga ishonch hosil qiling.</string>
+    <string name="about_credits">yt-dlp, FFmpeg va youtubedl-android ochiq kodli loyihalariga asoslangan (GPL-3.0).</string>
+    <string name="dialog_close">Yopish</string>
+
+    <!-- Bildirishnomalar -->
+    <string name="notif_channel_progress">Yuklash jarayoni</string>
+    <string name="notif_channel_done">Yakunlangan yuklamalar</string>
+    <string name="notif_progress_title">Yuklanmoqda (%1$d)</string>
+    <string name="notif_done">Yuklab olindi</string>
+    <string name="notif_failed">Yuklab boʻlmadi</string>
+    <string name="notif_cancel_all">Toʻxtatish</string>
+
+    <!-- Xatolar -->
+    <string name="err_generic">Nomaʼlum xatolik yuz berdi</string>
+    <string name="err_bad_url">Havola notoʻgʻri. Toʻliq manzilni kiriting (masalan, https://…)</string>
+    <string name="err_unsupported">Bu havola qoʻllab-quvvatlanmaydi yoki video topilmadi</string>
+    <string name="err_bot">Sayt hozircha soʻrovni rad etdi. Birozdan soʻng yoki yuklovchini yangilab qayta urinib koʻring</string>
+    <string name="err_login">Video yopiq yoki saytga kirish talab qilinadi</string>
+    <string name="err_age">Yosh cheklovi tufayli yuklab boʻlmaydi</string>
+    <string name="err_geo">Video sizning hududingizda mavjud emas</string>
+    <string name="err_unavailable">Video mavjud emas yoki oʻchirilgan</string>
+    <string name="err_rate">Sayt soʻrovlarni vaqtincha cheklagan. Birozdan soʻng urinib koʻring</string>
+    <string name="err_format">Tanlangan format yoki sifat mavjud emas</string>
+    <string name="err_network">Internetga ulanib boʻlmadi. Ulanishni tekshiring</string>
+    <string name="err_interrupted">Yuklash uzilib qoldi</string>
+    <string name="err_no_output">Yuklangan fayl topilmadi</string>
+</resources>

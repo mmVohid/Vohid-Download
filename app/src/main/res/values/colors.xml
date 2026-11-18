@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="window_bg">#FEFBFF</color>
+    <color name="ic_launcher_background">#4355B9</color>
+    <color name="notif_accent">#4355B9</color>
+</resources>
