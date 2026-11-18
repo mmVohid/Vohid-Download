@@ -113,4 +113,9 @@
     <string name="quick_share_label">Vohid: quick download</string>
     <string name="quick_started">Download started</string>
     <string name="quick_no_link">No link found. Copy a link first</string>
+    <string name="share_bg">Download in background</string>
+    <string name="share_bg_sub">App stays closed, uses your default format and quality</string>
+    <string name="share_open">Open the app</string>
+    <string name="share_open_sub">I will choose format and quality</string>
+    <string name="dialog_cancel">Cancel</string>
 </resources>

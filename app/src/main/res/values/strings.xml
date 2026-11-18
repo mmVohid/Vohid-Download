@@ -120,4 +120,9 @@
     <string name="quick_share_label">Vohid: tezkor yuklash</string>
     <string name="quick_started">Yuklash boshlandi</string>
     <string name="quick_no_link">Havola topilmadi. Avval havolani nusxalang</string>
+    <string name="share_bg">Fonda yuklash</string>
+    <string name="share_bg_sub">Ilova ochilmaydi, standart format va sifatda</string>
+    <string name="share_open">Ilovani ochish</string>
+    <string name="share_open_sub">Format va sifatni oʻzim tanlayman</string>
+    <string name="dialog_cancel">Bekor qilish</string>
 </resources>
